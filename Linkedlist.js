@@ -105,28 +105,7 @@ class Linkedlist {
         }
     }
 
-    // removeNodeValue(value) {
-    //     if (this.isEmpty()) {
-    //         return null
-    //     }
-    //     if (this.head.data === value) {
-    //         this.head = this.head.next;
-    //         this.size--
-    //         return value
-    //     } else {
-    //         let temp = this.head
-    //         while (temp.next && temp.next.data !== value) {
-    //             temp = temp.next
-    //         }
-    //         if (temp.next) {
-    //             let removeNodeVal = temp.next;
-    //             temp.next = removeNodeVal.next
-    //             this.size--
-    //             return value
-    //         }
-    //     }
-    //     return null
-    // }
+
 
     search(value) {
         if (this.isEmpty()) {
